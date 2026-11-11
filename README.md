@@ -14,7 +14,7 @@ jobs:
       - uses: actions/checkout@v4
 
       - id: token
-        uses: Mouriya-Emma/keycloak-token-action@v1
+        uses: mouriya-devops/keycloak-token-action@v1
         with:
           keycloak-url: https://keycloak.example.com
           realm: my-realm
